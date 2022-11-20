@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="formm">
+        <form action="">
+            <h1><u>PAYMENT FORM:</u></h1>
+            <hr>
+            <h2><u>CONTACT DETAILS:</u></h2>
+            <div>NAME : <input type="text" placeholder="name" required></div>
+            <br>
+            <fieldset>
+                <legend>GENDER</legend>
+                <div>male <input type="radio" name="gendre" > female <input type="radio" name="gendre" ></div>
+            </fieldset>
+            <br>
+            <div>EMAIL : <input type="email" placeholder="email" required></div>
+            <br>
+            <div>ADDRESS : <textarea placeholder="Address" cols="100" rows="5"></textarea></div>
+             <br>
+            <hr>
+            <h2><u>PAYMENT DETAILS:</u></h2>
+            <span>CARD TYPE</span>
+            <select name="card">
+                <option value="">select type</option>
+                <option value="visa">VISA</option>
+                <option value="rupay">RUPAY</option>
+                <option value="mastercard">MASTERCARD</option>
+            </select>
+            <br>
+            <br>
+            <div>CARD NUMBER <input type="number" name="number"></div>
+            <br>
+            <div>EXPIARY DATE <input type="date" name="date" id="date"></div>
+            <br>
+            <div>CVV <input type="password" name="cvv" id="cvv"></div>
+            <br>
+            <DIV><input type="submit" value="PAY NOW"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="reset"></DIV>
+        </form>
+    </div>    
+</body>
+</html>
